@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import Menu from "./Menu.tsx";
+import MyMenu from "./MyMenu.tsx";
 
 export default function RootLayout({
   children,
@@ -9,8 +9,11 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body className="h-screen w-screen flex flex-row">
-        <Menu />
+      <body
+        className="h-screen w-screen flex flex-col md:flex-row
+      "
+      >
+        <MyMenu />
         {children}
       </body>
     </html>

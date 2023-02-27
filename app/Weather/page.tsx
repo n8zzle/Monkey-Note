@@ -1,17 +1,17 @@
 "use client";
 import React from "react";
-import AddIcon from "@mui/icons-material/Add";
 import { IconButton } from "@mui/material";
+import AirIcon from "@mui/icons-material/Air";
 
 type Props = {};
 
 const qrcode = (props: Props) => {
   return (
-    <div className="flex flex-col w-full p-10 bg-gray-800">
+    <div className="flex flex-col w-full h-full p-10 bg-gray-800">
       <h1 className="w-full text-2xl text-white text-center font-bold">
         Weather App
       </h1>
-      <div className=" flex flex-col  w-1/2 h-1/2 bg-gray-700 p-10 rounded-lg mx-auto my-auto justify-between">
+      <div className=" flex flex-col w-full md:w-1/2 h-1/2 bg-gray-700 p-10 rounded-lg md:mx-auto md:my-auto justify-between">
         <div className="flex justify-center">Berlin</div>
 
         <div>
